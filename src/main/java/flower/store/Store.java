@@ -3,11 +3,19 @@ package flower.store;
 import java.util.Hashtable;
 
 public class Store {
+    private Hashtable<Flower, Integer> collection;
+
     public Store() {
         this.collection = new Hashtable<>();
     }
 
-    public Hashtable<Flower, Integer> collection;
+    public Hashtable<Flower, Integer> getCollection() {
+        return collection;
+    }
+
+    public void setCollection(Hashtable<Flower, Integer> collection) {
+        this.collection = collection;
+    }
 
     public int search(Flower flower) {
         // Returns the amount of flowers found in collection
