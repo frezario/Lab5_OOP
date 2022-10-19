@@ -13,8 +13,8 @@ public class Store {
         return collection;
     }
 
-    public void setCollection(Hashtable<Flower, Integer> collection) {
-        this.collection = collection;
+    public void setCollection(Hashtable<Flower, Integer> coll) {
+        this.collection = coll;
     }
 
     public int search(Flower flower) {
