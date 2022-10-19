@@ -16,7 +16,7 @@ public class FlowerBucket {
 
     public double getPrice() {
         double sum = 0;
-        for(FlowerPack pack: flowerPacks) {
+        for (FlowerPack pack: flowerPacks) {
             sum += pack.getPrice();
         }
         return sum;
